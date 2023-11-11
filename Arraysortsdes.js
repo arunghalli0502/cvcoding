@@ -1,8 +1,5 @@
 function Arraysortdes() {
     let fruites = ["jackfruits", "apple", "organge", "banana", "mango", "lime"];
-    let res = fruites.sort();
-    console.log(res);
-    // console.log(fruites);
     for (let i = 0; i < fruites.length; i++) {
        
         {
@@ -12,7 +9,7 @@ function Arraysortdes() {
             } 
         }
     }
-   console.log(fruites);
+   console.log("After shorting : "+fruites);
 }
 
 Arraysortdes();
